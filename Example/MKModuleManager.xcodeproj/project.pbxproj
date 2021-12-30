@@ -22,6 +22,12 @@
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
+		9F178364277D9DA7002EDFEA /* NSObject+PerformSelector.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F178363277D9DA7002EDFEA /* NSObject+PerformSelector.m */; };
+		9F178368277D9ED6002EDFEA /* MKBaseAppEventModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F178367277D9ED6002EDFEA /* MKBaseAppEventModule.m */; };
+		9F17836B277D9F2A002EDFEA /* MKModuleManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F17836A277D9F2A002EDFEA /* MKModuleManager.m */; };
+		9F17836F277DA08D002EDFEA /* MKTestOne.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F17836E277DA08D002EDFEA /* MKTestOne.m */; };
+		9F178372277DA0AB002EDFEA /* MKTestTwo.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F178371277DA0AB002EDFEA /* MKTestTwo.m */; };
+		9F178375277DA0CC002EDFEA /* MKTestThree.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F178374277DA0CC002EDFEA /* MKTestThree.m */; };
 		AFA955B91CDFDBD02CA50CE0 /* Pods_MKModuleManager_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7870B978EB049E8379E6AB9F /* Pods_MKModuleManager_Tests.framework */; };
 		B75325EEFB9A12B764B8D28B /* Pods_MKModuleManager_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28CE9E560963B5265F77FA78 /* Pods_MKModuleManager_Example.framework */; };
 /* End PBXBuildFile section */
@@ -37,7 +43,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		089B9ABB7C79C9C179FA8606 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		089B9ABB7C79C9C179FA8606 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		1905B3DCB1895E20C939F958 /* Pods-MKModuleManager_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MKModuleManager_Tests.debug.xcconfig"; path = "Target Support Files/Pods-MKModuleManager_Tests/Pods-MKModuleManager_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		265183119F9F3E720DB803D6 /* Pods-MKModuleManager_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MKModuleManager_Tests.release.xcconfig"; path = "Target Support Files/Pods-MKModuleManager_Tests/Pods-MKModuleManager_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		28CE9E560963B5265F77FA78 /* Pods_MKModuleManager_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MKModuleManager_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -62,10 +68,23 @@
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7870B978EB049E8379E6AB9F /* Pods_MKModuleManager_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MKModuleManager_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		815379FBBAA280D255D59CB7 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		815379FBBAA280D255D59CB7 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8DA162CE49C66E514F03E484 /* Pods-MKModuleManager_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MKModuleManager_Example.release.xcconfig"; path = "Target Support Files/Pods-MKModuleManager_Example/Pods-MKModuleManager_Example.release.xcconfig"; sourceTree = "<group>"; };
-		D0C5E44BF46A1247108F726A /* MKModuleManager.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = MKModuleManager.podspec; path = ../MKModuleManager.podspec; sourceTree = "<group>"; };
+		9F178362277D9DA7002EDFEA /* NSObject+PerformSelector.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "NSObject+PerformSelector.h"; path = "../../MKModuleManager/Classes/NSObject+PerformSelector.h"; sourceTree = "<group>"; };
+		9F178363277D9DA7002EDFEA /* NSObject+PerformSelector.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "NSObject+PerformSelector.m"; path = "../../MKModuleManager/Classes/NSObject+PerformSelector.m"; sourceTree = "<group>"; };
+		9F178365277D9E53002EDFEA /* MKAppEventModuleProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = MKAppEventModuleProtocol.h; path = ../../MKModuleManager/Classes/MKAppEventModuleProtocol.h; sourceTree = "<group>"; };
+		9F178366277D9ED6002EDFEA /* MKBaseAppEventModule.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = MKBaseAppEventModule.h; path = ../../MKModuleManager/Classes/MKBaseAppEventModule.h; sourceTree = "<group>"; };
+		9F178367277D9ED6002EDFEA /* MKBaseAppEventModule.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = MKBaseAppEventModule.m; path = ../../MKModuleManager/Classes/MKBaseAppEventModule.m; sourceTree = "<group>"; };
+		9F178369277D9F2A002EDFEA /* MKModuleManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = MKModuleManager.h; path = ../../MKModuleManager/Classes/MKModuleManager.h; sourceTree = "<group>"; };
+		9F17836A277D9F2A002EDFEA /* MKModuleManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = MKModuleManager.m; path = ../../MKModuleManager/Classes/MKModuleManager.m; sourceTree = "<group>"; };
+		9F17836D277DA08D002EDFEA /* MKTestOne.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MKTestOne.h; sourceTree = "<group>"; };
+		9F17836E277DA08D002EDFEA /* MKTestOne.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MKTestOne.m; sourceTree = "<group>"; };
+		9F178370277DA0AB002EDFEA /* MKTestTwo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MKTestTwo.h; sourceTree = "<group>"; };
+		9F178371277DA0AB002EDFEA /* MKTestTwo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MKTestTwo.m; sourceTree = "<group>"; };
+		9F178373277DA0CC002EDFEA /* MKTestThree.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MKTestThree.h; sourceTree = "<group>"; };
+		9F178374277DA0CC002EDFEA /* MKTestThree.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MKTestThree.m; sourceTree = "<group>"; };
+		D0C5E44BF46A1247108F726A /* MKModuleManager.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = MKModuleManager.podspec; path = ../MKModuleManager.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		FAAC8E2AB83388585A1BC06E /* Pods-MKModuleManager_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MKModuleManager_Example.debug.xcconfig"; path = "Target Support Files/Pods-MKModuleManager_Example/Pods-MKModuleManager_Example.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -103,7 +122,6 @@
 				1905B3DCB1895E20C939F958 /* Pods-MKModuleManager_Tests.debug.xcconfig */,
 				265183119F9F3E720DB803D6 /* Pods-MKModuleManager_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -149,6 +167,14 @@
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
 				6003F5A5195388D20070C39A /* MKViewController.h */,
 				6003F5A6195388D20070C39A /* MKViewController.m */,
+				9F17836C277DA032002EDFEA /* modules */,
+				9F178362277D9DA7002EDFEA /* NSObject+PerformSelector.h */,
+				9F178363277D9DA7002EDFEA /* NSObject+PerformSelector.m */,
+				9F178365277D9E53002EDFEA /* MKAppEventModuleProtocol.h */,
+				9F178366277D9ED6002EDFEA /* MKBaseAppEventModule.h */,
+				9F178367277D9ED6002EDFEA /* MKBaseAppEventModule.m */,
+				9F178369277D9F2A002EDFEA /* MKModuleManager.h */,
+				9F17836A277D9F2A002EDFEA /* MKModuleManager.m */,
 				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
@@ -195,6 +221,19 @@
 				815379FBBAA280D255D59CB7 /* LICENSE */,
 			);
 			name = "Podspec Metadata";
+			sourceTree = "<group>";
+		};
+		9F17836C277DA032002EDFEA /* modules */ = {
+			isa = PBXGroup;
+			children = (
+				9F17836D277DA08D002EDFEA /* MKTestOne.h */,
+				9F17836E277DA08D002EDFEA /* MKTestOne.m */,
+				9F178370277DA0AB002EDFEA /* MKTestTwo.h */,
+				9F178371277DA0AB002EDFEA /* MKTestTwo.m */,
+				9F178373277DA0CC002EDFEA /* MKTestThree.h */,
+				9F178374277DA0CC002EDFEA /* MKTestThree.m */,
+			);
+			name = modules;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,6 +298,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -383,9 +423,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9F178372277DA0AB002EDFEA /* MKTestTwo.m in Sources */,
+				9F178364277D9DA7002EDFEA /* NSObject+PerformSelector.m in Sources */,
 				6003F59E195388D20070C39A /* MKAppDelegate.m in Sources */,
+				9F178375277DA0CC002EDFEA /* MKTestThree.m in Sources */,
+				9F17836F277DA08D002EDFEA /* MKTestOne.m in Sources */,
 				6003F5A7195388D20070C39A /* MKViewController.m in Sources */,
+				9F17836B277D9F2A002EDFEA /* MKModuleManager.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
+				9F178368277D9ED6002EDFEA /* MKBaseAppEventModule.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

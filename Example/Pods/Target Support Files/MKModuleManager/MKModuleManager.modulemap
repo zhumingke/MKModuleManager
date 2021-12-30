@@ -1,0 +1,6 @@
+framework module MKModuleManager {
+  umbrella header "MKModuleManager-umbrella.h"
+
+  export *
+  module * { export * }
+}
